@@ -1,13 +1,11 @@
 {
   "name": "todo-dev-angular",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "eslint": "eslint 'src/**/*.ts'"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +27,14 @@
     "@angular/compiler-cli": "~9.0.3",
     "@angular/language-service": "~9.0.3",
     "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-angular": "^4.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
