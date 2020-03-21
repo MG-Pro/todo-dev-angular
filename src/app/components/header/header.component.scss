@@ -1,0 +1,44 @@
+@import 'var';
+.header {
+  background-color: $header-bg;
+  height: 70px;
+  padding: 10px 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+
+    &-link {
+      color: $title;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+    &-img {
+      height: 50px;
+    }
+    &-title {
+      margin-left: 20px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  &__actions {
+    color: $title;
+    display: flex;
+    align-items: center;
+  }
+  &__auth {
+    font-size: 18px;
+    margin-right: 35px;
+  }
+  &__menu {
+    cursor: pointer;
+    user-select: none;
+    &-icon {
+      font-size: 40px;
+    }
+  }
+}

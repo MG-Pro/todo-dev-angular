@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "eslint": "eslint 'src/**/*.ts'"
+    "build": "ng build"
   },
   "private": true,
   "dependencies": {
